@@ -20,16 +20,17 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 1em;
+   
 }
 
 
 .card {
-    max-width: 20rem;
+    width: 320px;
+    height: 497px;
     background-color: var(--White);
     border-radius: 15px;
     padding: 1em;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, .05);
 
 }
 .card img{
@@ -37,13 +38,20 @@ body {
     border-radius: 15px;
 }
 .card h1 {
-    font-size: 1.5em;
-    padding-top: 1em;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 24px;
+    
     color: var(--DarkBlue);
 }
 .card p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding-inline: 16px;
     color: var(--GrayishBlue);
-    padding-block: 1em;
+    padding-top: 1rem;
 }
 footer {
     position: absolute;
@@ -51,4 +59,8 @@ footer {
     padding-bottom: 1em;
     font-size: .8em;
 }
-  
+
+a {
+    text-decoration: none;
+    color: black;
+}
